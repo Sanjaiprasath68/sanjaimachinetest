@@ -5,6 +5,7 @@
 .home {
     background: linear-gradient(rgb(228, 252, 228), rgb(236, 226, 156));
     margin-top: -57px;
+    padding-top: 40px;
     height: 650px;
 }
 
@@ -45,8 +46,8 @@
 .navContainer {
     border: 1px solid gainsboro;
     justify-content: space-around;
-    width: 100%;
-    margin-left: 200px;
+    width: 80%;
+    margin-left: 120px;
     border-radius: 12px;
     margin-top: 60px;
 }
@@ -64,19 +65,20 @@
 }
 
 .hometext h2 {
-    margin-left: 470px;
+    margin-left: 390px;
     font-size: 55px;
 }
 
 .hometext h3 {
-    margin-left: 350px;
+    margin-left: 260px;
     font-size: 55px;
     font-weight: lighter;
     margin-top: -50px;
 }
 
 .homecheckboxs {
-    margin-left: 350px;
+    gap: 40px;
+    margin-left: 260px;
     display: flex;
     margin-bottom: 20px;
 }
@@ -93,7 +95,7 @@
 .homemobile {
     width: 900px;
     height: 500px;
-    margin-left: 250px;
+    margin-left: 180px;
 }
 
 .homelogo {
@@ -160,12 +162,12 @@
 .why h3 {
     text-align: center;
     font-size: 36px;
-    margin-top: 230px;
+    margin-top: 270px;
 }
 
 .why h4 {
     margin-top: -75px;
-    margin-left: 830px;
+    margin-left: 770px;
     font-weight: lighter;
     font-size: 30px;
 }
@@ -313,6 +315,14 @@
 
 .boxs{
     display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.scroll-container {
+    width: 100%;
+    overflow: hidden; /* Hide extra content */
+    position: relative;
 }
 
 
@@ -396,15 +406,14 @@
 
 
 
-@keyframes scroll-right-to-left {
+@keyframes continuous-scroll {
     0% {
-        transform: translateX(100%); /* Start completely off-screen to the right */
+        transform: translateX(0); /* Start from original position */
     }
     100% {
-        transform: translateX(-100%); /* End completely off-screen to the left */
+        transform: translateX(-50%); /* Move content left by half its width */
     }
 }
-
 
 
 
@@ -425,9 +434,10 @@
 
     .navContainer{
         margin-left: 5px;
+        width: 97%;
     }
     .home {
-        margin-top: 38px;
+        margin-top: -5px;
     }
 
     .hometext h2,
@@ -709,8 +719,8 @@
         padding: 25px;
     }
     .boxs{
-        animation: scroll-right-to-left 15s linear infinite; /* Infinite animation */
-   
+        animation: continuous-scroll 20s linear infinite; /* Only animate on mobile */
+  
     }
 
     .box h5 {
