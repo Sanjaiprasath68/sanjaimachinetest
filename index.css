@@ -207,7 +207,7 @@
     margin-top: -75px;
     font-size: 30px;
     font-weight: lighter;
-    margin-left: 860px;
+    margin-left: 800px;
 }
 
 .howtopay hr {
@@ -247,7 +247,7 @@
     width: 280px;
     height: 200px;
     border-radius: 10px;
-    margin-left: 120px;
+    margin-left: 230px;
     background-color: white;
 }
 
@@ -259,20 +259,20 @@
 .rateimg02 h6 {
     font-size: 20px;
     color: green;
-    margin-left: 120px;
+    margin-left: 230px;
 }
 
 .rateimg02 h4 {
     width: 350px;
     margin-top: -30px;
-    margin-left: 120px;
+    margin-left: 230px;
     font-size: 22px;
     font-weight: 600;
 }
 
 .rateimg02 h5 {
     width: 350px;
-    margin-left: 120px;
+    margin-left: 230px;
     font-size: 18px;
     margin-top: -20px;
     color: gray;
@@ -292,7 +292,7 @@
     border: none;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 115px;
+    margin-left: 230px;
 }
 
 .changing {
@@ -608,18 +608,18 @@
     .rateimg01 h6 {
         font-size: 20px;
         color: green;
-        margin-left: 30px;
+        margin-left: 50px;
     }
 
     .rateimg01 h4 {
-        margin-left: 20px;
+        margin-left: 50px;
         font-size: 22px;
         font-weight: 600;
     }
 
     .rateimg01 h5 {
         width: 330px;
-        margin-left: 20px;
+        margin-left: 50px;
         font-size: 18px;
         margin-top: -20px;
         color: gray;
@@ -630,11 +630,12 @@
         border: none;
         font-size: 20px;
         font-weight: bold;
-        margin-left: 15px;
+        margin-left: 45px;
     }
 
     .rateimg1 img {
         margin-top: 15px;
+        margin-bottom: 20px;
         width: 280px;
         height: 200px;
         border-radius: 10px;
@@ -645,17 +646,17 @@
     .rateimg02 h6 {
         font-size: 20px;
         color: green;
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .rateimg02 h4 {
-        margin-left: 20px;
+        margin-left: 50px;
         font-size: 22px;
         font-weight: 600;
     }
 
     .rateimg02 h5 {
-        margin-left: 20px;
+        margin-left: 50px;
         font-size: 18px;
         margin-top: -20px;
         color: gray;
@@ -668,16 +669,17 @@
         border: none;
         font-size: 20px;
         font-weight: bold;
-        margin-left: 15px;
+        margin-left: 45px;
     }
 
     .rateimg2 img {
-        margin-top: 15px;
+        margin-top: 0px;
         width: 280px;
         height: 200px;
         border-radius: 10px;
         margin-left: 50px;
         background-color: white;
+        margin-bottom: 20px;
     }
 
     .changing h1 {
